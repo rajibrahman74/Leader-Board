@@ -5,6 +5,7 @@
 body{
     font-family: 'Titillium Web', sans-serif;
     background: #F3F1FF;
+    margin: 0;
 }
 main{
     display: flex;
@@ -21,9 +22,59 @@ main{
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
+    
 
 }
 
+/* navigation bar */
+/* navigation bar */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    height: 94px;
+    width: 1522px;
+    background: #562EFF;
+}
+.frist-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.frist-div > span > img{
+    width: 40.42px;
+    height: 51px;
+    color: #FFFFFF;
+    margin-left: 12.5px;
+}
+.frist-div > span > p{
+    width: 54px;
+    height: 36px;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+}
+.frist-div > .frist-p{
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.another-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.another-div > .all-link > .frist-a{
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+}
+.profile img{
+    margin-right: 12.5px;
+
+}
 /* top players style start */
 /* top players style start */
 
@@ -95,7 +146,7 @@ hr{
 .course{
     Width: 252.42px;
     Height: 330px;
-    
+   
 }
 .courses .course img{
     width: 266px;
@@ -129,6 +180,9 @@ span{
 /* Mobile device */
 
 @media only screen and (max-width: 688px) {
+    nav{
+        width: 100%;
+    }
     .container{
         width: 100%;
     }
@@ -145,6 +199,9 @@ span{
 
         
 @media only screen and (min-widht: 688px) and (max-width: 992px) {
+    nav{
+        width: 100%;
+    }
     .container{
         width: 100%;
     }
